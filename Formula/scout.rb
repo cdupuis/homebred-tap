@@ -1,4 +1,4 @@
-class Pack < Formula
+class Scout < Formula
   desc "Docker Scout CLI"
   homepage "https://github.com/docker/scout-cli"
   version "0.20.0"
