@@ -21,4 +21,11 @@ class ScoutCli < Formula
   def install
     bin.install "docker-scout"
   end
+
+  postflight do
+    system_command "echo",
+                   args: ["hello world"],
+                   sudo: true
+  end
+  
 end
