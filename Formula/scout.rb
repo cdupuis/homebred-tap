@@ -2,7 +2,6 @@ class Scout < Formula
   desc "Docker Scout CLI"
   homepage "https://github.com/docker/scout-cli"
   version "0.20.0"
-  version_scheme 1
 
   on_macos do
     if Hardware::CPU.intel?
