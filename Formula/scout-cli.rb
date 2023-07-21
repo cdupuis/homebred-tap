@@ -20,7 +20,7 @@ class ScoutCli < Formula
 
   def install
     bin.install "docker-scout"
-    system "echo", "hello world"
+    system "ln", "-sf", "/opt/homebrew/bin/docker-scout", "~/.docker/cli-plugins/docker-scout"
   end
   
 end
